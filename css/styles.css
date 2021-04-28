@@ -77,6 +77,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  border-top: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10509,4 +10510,12 @@ background-color: black;
   box-shadow: 0px 15px 20px rgba(0, 128, 128, 0.4);
   color: #fff;
   transform: translateY(-7px);
+}
+
+#automatic-journey {
+  justify-content: center;
+}
+#automatic-journey img{
+  border: 2px solid white; 
+  height: 200px;
 }
